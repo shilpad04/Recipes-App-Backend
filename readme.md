@@ -101,7 +101,7 @@ Base URL:
 ```
 https://recipes-app-backend-gjgp.onrender.com/api/recipes
 ```
----
+
 ###### 📌 1. Create Recipe
 **POST** `/api/recipes`
 
@@ -117,7 +117,7 @@ Example Body (JSON):
   "servings": 2
 }
 ```
----
+
 ###### 📌 2. Get All Recipes
 **GET** `/api/recipes`
 
@@ -128,13 +128,13 @@ Response:
   "data": [...]
 }
 ```
----
+
 ###### 📌 3. Get Recipe By ID
 **GET** `/api/recipes/:id` 
 
 Example:
 `https://recipes-app-backend-gjgp.onrender.com/api/recipes/6792efcdb42d010a4e496ea7`
----
+
 ##### 📌 4. Update Recipe
 **PUT** `/api/recipes/:id`
 
@@ -145,7 +145,7 @@ Example Body:
   "servings": 4
 }
 ```
----
+
 ##### 📌 5. Delete Recipe
 **DELETE** `/api/recipes/:id`
 
@@ -224,6 +224,7 @@ Response:
   "servings": 2
 }
 ```
+
 ---
 
 ### ⚠️ Error Handling
@@ -239,6 +240,7 @@ Example error:
   "message": "Invalid recipe ID"
 }
 ```
+
 ---
 
 ### 📌 Testing With Postman
