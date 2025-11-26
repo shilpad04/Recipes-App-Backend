@@ -14,6 +14,7 @@ This project demonstrates clean architecture using MVC pattern and includes comp
 ---
 
 ### 📁 Folder Structure (MVC)
+```
 Recipe Apps - Backend/
                - config/
                    - db.js
@@ -29,6 +30,7 @@ Recipe Apps - Backend/
                - .env
                - .gitignore
                - package.json
+```
 ---
 
 ### 📌 Tech Stack
@@ -67,7 +69,7 @@ npm start
 ---
 
 ### 🍃 MongoDB Setup (Atlas)
-1. Go to [Click here](https://cloud.mongodb.com)
+1. Go to `https://cloud.mongodb.com`
 2. Create a Free M0 Shared Cluster
 3. Create a user → username + password
 4. Add IP Access → ` 0.0.0.0/0 `
@@ -80,7 +82,7 @@ npm start
 
 ### 🌍 Deployment (Render)
 1. Push project to GitHub
-2. Go to [Click here](https://render.com)
+2. Go to `https://render.com`
 3. Create → New Web Service
 4. Select your repo
 5. Build Command
