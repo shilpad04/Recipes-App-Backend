@@ -3,6 +3,7 @@ A simple and beginner-friendly CRUD API for managing recipes.
 Built using Node.js, Express.js, MongoDB (Mongoose) and deployed on Render.
 
 This project demonstrates clean architecture using MVC pattern and includes complete CRUD operations with Postman documentation.
+
 ---
 
 ### 🚀 Live API URL (Deployed on Render)
