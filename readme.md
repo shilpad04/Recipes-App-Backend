@@ -92,7 +92,7 @@ npm start
    ` npm start `
 7. Add environment variable:
    `MONGO_URL=your_atlas_url`
-8.Deploy
+8. Deploy
 
 ---
 
